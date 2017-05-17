@@ -409,3 +409,7 @@ function novo() {
 	desenharPontos();
 	Event.observe('pontinho', 'click', main);
 }
+
+function isIe() {
+	return 'Microsoft Internet Explorer' == navigator.appName;
+}
